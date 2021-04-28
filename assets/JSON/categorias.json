@@ -1,0 +1,91 @@
+
+  {
+    "id" : "Items",
+    "title" : [
+      {
+        "id" : 0,
+        "image" : "../assets/images/perfumeriaLogo.png",
+        "title" : "Perfumes",
+        "Productos" : [
+          {
+            "id" : 0,
+            "image" : "../assets/images/Perfumes/ervaDoce.png",
+            "title" : "Erva Doce",
+            "price" : 1450
+          },
+          {
+            "id" : 1,
+            "image" : "../assets/images/Perfumes/ekosCastanha.png",
+            "title" : "Ekos Castanha",
+            "price" : 349
+          },
+          {
+            "id" : 2,
+            "image" : "../assets/images/Perfumes/kriskaDrama.png",
+            "title" : "Kriska Drama",
+            "price" : 1279
+            
+          },
+          {
+            "id" : 3,
+            "image" : "../assets/images/Perfumes/essencialExclusivo.png",
+            "title" : "Essencial Exclusivo",
+            "price" : 1750
+          },
+          {
+            "id" : 4,
+            "image" : "../assets/images/Perfumes/humorProprio.png",
+            "title" : "Humor Proprio",
+            "price" : 1750
+          },
+          {
+            "id" : 5,
+            "image" : "../assets/images/Perfumes/kaiakAventuraF.png",
+            "title" : "Kaiak Aventura F",
+            "price" : 1250
+          },
+          {
+            "id" : 6,
+            "image" : "../assets/images/Perfumes/tododia.png",
+            "title" : "Tododia",
+            "price" : 1350
+          },
+          {
+            "id" : 7,
+            "image" : "../assets/images/Perfumes/quimicaDeHumorM.png",
+            "title" : "Quimica de Humor",
+            "price" : 450
+          }
+        ] 
+      },
+      {
+         "id" : 1,
+        "image" : "../assets/images/cremaLogo.png",
+        "title" : "Cremas",
+        "Productos" : [
+          {
+            "id" : 0,
+            "image" : "../assets/images/Cremas/ekosMaracuja.png",
+            "title" : "Ekos Maracuja",
+            "price" : 1350
+            
+          }
+        ]
+      },
+      {
+         "id" : 2,
+        "image" : "../assets/images/maquillajeLogo.png",
+        "title" : "Maquillaje",
+        "Productos" : [
+          {
+            "id" : 0,
+            "image" : "../assets/images/Cremas/ekosMaracuja.png",
+            "title" : "Ekos Maracuja",
+            "price" : 1350
+            
+          }
+        ]
+      }
+    ]
+    
+  }

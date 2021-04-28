@@ -1,0 +1,31 @@
+{
+  "name": "coderproject",
+  "version": "1.0.0",
+  "description": "Project for CoderHouse.",
+  "main": "app.js",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "node": "^15.12.0",
+    "npm": "^7.7.6",
+    "sass": "^1.32.8",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5"
+  },
+  "scripts": {
+    "prestart": "tsc && sass src/scss:build/css ",
+    "poststart": "http-server ../coderProject -o && start  http://localhost:8080",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jooherrera/CoderProject.git"
+  },
+  "author": "Jose Herrera <jooherrera4@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jooherrera/CoderProject/issues"
+  },
+  "homepage": "https://github.com/jooherrera/CoderProject#readme"
+}
